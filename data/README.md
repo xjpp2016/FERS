@@ -1,1 +1,0 @@
-Please include the data from the HAD100 (https://zhaoxuli123.github.io/HAD100/) here. 
