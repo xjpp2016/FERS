@@ -13,13 +13,12 @@ Most hyperspectral anomaly detection .
 
 ![image](https://github.com/cristianoKaKa/FERD/blob/master/framework.png)
 
-## Performance on HAD100 Dataset
 
-### Dataset
+## HAD100 Dataset
 
 HAD100: https://zhaoxuli123.github.io/HAD100/
 
-### Obtaining Detection Results on HAD100
+## Obtaining Detection Results on HAD100
 To obtain anomaly detection results on the HAD100 dataset, execute the following commands. You can specify the number of spectral bands to use with the --input_channel argument:
 
 - For first 50 bands test:
@@ -35,13 +34,13 @@ python test.py --input_channel 100
 python test.py --input_channel 200
 ```
 
-### Training on HAD100
+## Training on HAD100
 To train your own model on the HAD100 dataset, run the following command:
 
 ```bash
 python train.py
 ```
-### Anomaly Detection Results on HAD100
+## Anomaly Detection Results on HAD100
 The following table presents the mean AUC (mAUC) results achieved using different numbers of spectral bands:
 
 | Bands | mAUC |
