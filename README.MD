@@ -2,7 +2,7 @@
 **Authors**: Wenping Jin, Yuyang Tang, Li Zhu
 
 ## Overview
-This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection scheme presented in our paper: 
+This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection: 
 
 **"Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection"**
 
@@ -19,9 +19,8 @@ Most hyperspectral anomaly detection .
 
 HAD100: https://zhaoxuli123.github.io/HAD100/
 
-### Running Tests
-
-To run the tests on HAD100, use the following command:
+### Obtaining Detection Results on HAD100
+To obtain anomaly detection results on the HAD100 dataset, execute the following commands. You can specify the number of spectral bands to use with the --input_channel argument:
 
 - For first 50 bands test:
 ```bash
@@ -36,12 +35,14 @@ python test.py --input_channel 100
 python test.py --input_channel 200
 ```
 
-### Running Training on HAD100
+### Training on HAD100
+To train your own model on the HAD100 dataset, run the following command:
 
 ```bash
 python train.py
 ```
-### Results on HAD100
+### Anomaly Detection Results on HAD100
+The following table presents the mean AUC (mAUC) results achieved using different numbers of spectral bands:
 
 | Bands | mAUC |
 | :--: | :--: |
