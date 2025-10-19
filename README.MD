@@ -15,7 +15,6 @@ Most hyperspectral anomaly detection .
 
 
 ## HAD100 Dataset
-
 HAD100: https://zhaoxuli123.github.io/HAD100/
 
 ## Obtaining Detection Results on HAD100
@@ -49,6 +48,19 @@ The following table presents the mean AUC (mAUC) results achieved using differen
 | The First 100 Bands | 0.9910 |
 | The First 200 Bands | 0.9902 |
 
+
+## Obtaining Detection Results on ABU
+The corresponding code is located in the FERS_ABU directory.
+
+Using the RX detector:
+```bash
+python test.py
+```
+
+Using the AE detector:
+```bash
+python test.py --detect AE
+```
 
 ## Citation
 If this repo works positively for your research, please consider citing our paper. Thanks all!

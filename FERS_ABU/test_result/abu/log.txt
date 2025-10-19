@@ -1,0 +1,3 @@
+total_time: 1.37102
+mean_time: 0.22850366
+mean pixel ROCAUC: 0.97800
