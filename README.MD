@@ -50,7 +50,7 @@ The following table presents the mean AUC (mAUC) results achieved using differen
 
 
 ## Obtaining Detection Results on ABU
-The corresponding code is located in the FERS_ABU directory.
+The corresponding code is located in the `FERS_ABU` directory.
 
 Using the RX detector:
 ```bash
