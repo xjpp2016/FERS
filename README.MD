@@ -1,9 +1,12 @@
 # Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection
-**Authors**: Wenping Jin,  Li Zhu
+**Authors**: Wenping Jin, Yuyang Tang, Li Zhu
 
 ## Overview
+This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection scheme presented in our paper: 
 
-This repository contains the implementation of the algorithm described in the paper "Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection". 
+**"Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection"**
+
+The first-stage training pipeline in our paper builds upon our previous work, **FERD**. The corresponding code is available at: https://github.com/xjpp2016/FERD
 
 ## Abstract
 Most hyperspectral anomaly detection .
@@ -38,11 +41,11 @@ python test.py --input_channel 200
 ```bash
 python train.py
 ```
-### Results
+### Results on HAD100
 
 | Bands | mAUC |
 | :--: | :--: |
-| The First 50 Bands | 0.9956 |
+| The First 50 Bands | 0.9953 |
 | The First 100 Bands | 0.9910 |
 | The First 200 Bands | 0.9902 |
 
