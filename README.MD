@@ -2,7 +2,7 @@
 **Authors**: Wenping Jin, Yuyang Tang, Li Zhu
 
 ## Overview
-This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection: 
+This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection, as presented in our paper:
 
 **"Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection"**
 
