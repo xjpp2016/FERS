@@ -8,10 +8,10 @@ This repository contains the implementation for the second-stage training (i.e.,
 
 The first-stage training pipeline in our paper builds upon our previous work, **FERD**. The corresponding code is available at: https://github.com/xjpp2016/FERD
 
+![image](https://github.com/xjpp2016/FERS/blob/main/spa_train.png)
+
 ## Abstract
 Most hyperspectral anomaly detection .
-
-![image](https://github.com/xjpp2016/FERS/blob/main/spa_train.png)
 
 
 ## HAD100 Dataset
