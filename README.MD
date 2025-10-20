@@ -11,7 +11,7 @@ The first-stage training pipeline in our paper builds upon our previous work, **
 ## Abstract
 Most hyperspectral anomaly detection .
 
-![image](https://github.com/cristianoKaKa/FERD/blob/master/framework.png)
+![image](https://github.com/xjpp2016/FERS/blob/main/spa_train.png)
 
 
 ## HAD100 Dataset
