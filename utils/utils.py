@@ -92,7 +92,7 @@ def seed_fix(args):
     elif args.input_channel == 100 and args.sensor == 'aviris_ng':
         args.seed = 820
     elif args.input_channel == 50 and args.sensor == 'aviris_ng':
-        args.seed = 970
+        args.seed = 370
     elif args.input_channel == 200 and args.sensor == 'aviris':
         args.seed = 850
     return args
