@@ -1,4 +1,4 @@
-# Rebellious Student: A Complementary Distillation Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection
+# Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection
 **Authors**: Wenping Jin, Yuyang Tang, Li Zhu
 
 ## Overview
