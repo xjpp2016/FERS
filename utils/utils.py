@@ -86,12 +86,6 @@ def seed_torch(seed=50):
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
 
-    # Force all operations to be deterministic (if possible)
-    # try:
-    #     torch.use_deterministic_algorithms(True)
-    # except Exception as e:
-    #     print(f"Warning: Deterministic algorithms not fully enforced: {e}")
-
 def seed_fix(args):
     if args.input_channel == 200 and args.sensor == 'aviris_ng':
         args.seed = 970
