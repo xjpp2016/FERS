@@ -37,8 +37,7 @@ def variance_preserve_loss(B, eps=1e-6):
     # We want variance >= target, penalize only if below target
     target = 1.0  
     penalty = F.relu(target - var).mean()
-    if C <100:
-        penalty = penalty + torch.abs(penalty)
+    penalty = penalty + torch.abs(B).mean()
     return penalty
 
 
