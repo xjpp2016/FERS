@@ -2,7 +2,7 @@
 **Authors**: Wenping Jin, Yuyang Tang, Li Zhu, Fei Guo
 
 ## Overview
-This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection, as presented in our paper ![pdf](https://arxiv.org/pdf/2510.18781) :
+This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection, as presented in our paper [pdf](https://arxiv.org/pdf/2510.18781) :
 
 **"Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection"**
 
@@ -64,8 +64,21 @@ python test.py --detect AE
 
 ## Citation
 If this repo works positively for your research, please consider citing our paper. Thanks all!
+
 ```
-@article{jin2024feature,
+@misc{jin2025_FERS,
+      title={Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection}, 
+      author={Wenping Jin and Yuyang Tang and Li Zhu and Fei Guo},
+      year={2025},
+      eprint={2510.18781},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.18781}, 
+}
+```
+
+```
+@article{jin2024_FERD,
   author={Jin, Wenping and Dang, Feng and Zhu, Li},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={Feature Enhancement with Reverse Distillation for Hyperspectral Anomaly Detection}, 
