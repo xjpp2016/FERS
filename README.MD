@@ -1,7 +1,6 @@
-# FERS 
-Title: **Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection**
+# Rebellious Student: A Complementary Learning Framework for Background Feature Enhancement in Hyperspectral Anomaly Detection
 
-Authors: Wenping Jin, Yuyang Tang, Li Zhu, Fei Guo
+**Authors**: Wenping Jin, Yuyang Tang, Li Zhu, Fei Guo
 
 ## Overview
 This repository contains the implementation for the second-stage training (i.e., training of the spatial branch based on complementary distillation) and the final fusion detection, as presented in our paper [pdf](https://arxiv.org/pdf/2510.18781) :
