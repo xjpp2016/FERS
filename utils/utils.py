@@ -88,9 +88,9 @@ def seed_torch(seed=50):
 
 def seed_fix(args):
     if args.input_channel == 200 and args.sensor == 'aviris_ng':
-        args.seed = 510
+        args.seed = 960
     elif args.input_channel == 100 and args.sensor == 'aviris_ng':
-        args.seed = 820
+        args.seed = 980
     elif args.input_channel == 50 and args.sensor == 'aviris_ng':
         args.seed = 370
     elif args.input_channel == 200 and args.sensor == 'aviris':
